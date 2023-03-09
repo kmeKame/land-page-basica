@@ -1,4 +1,4 @@
-![preview](kmeKame/land-page-basica/blob/main/preview.jpg)
+![preview](github.com/kmeKame/land-page-basica/blob/main/preview.jpg)
 
 Projeto construído como estudo de HTML e CSS.
 
