@@ -1,4 +1,4 @@
-![preview](.github/preview.png)
+![preview](/preview.png)
 
 Projeto construído como estudo de HTML e CSS.
 
