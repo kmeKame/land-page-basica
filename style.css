@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: tilt neon;
+}
+
+section {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.circle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: orangered;
+    clip-path: circle(40% at bottom right);
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo {
+    position: relative;
+    max-width: 80px;
+}
+
+header .navegar ul {
+    display: flex;
+    position: relative;
+}
+
+header .navegar li {
+    list-style: none;
+}
+
+header .navegar li a {
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 19px;
+    margin-left: 100px;
+}
+
+.conteudo {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.conteudo .texto {
+    position: relative;
+    max-width: 600px;
+    margin-right: 20px;
+}
+
+.conteudo .texto h2 {
+    color: white;
+    font-size: 3em;
+    margin-bottom: 10px;
+    margin-top: 45px;
+    line-height: 2em;
+    font-weight: 700;
+}
+
+.conteudo .texto h2 span {
+    font-size: 2.5em;
+    color: red;
+    font-weight: bold;
+}
+
+.conteudo .texto p {
+    color: rgb(255, 255, 255);
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.conteudo .texto a {
+    display: inline-block;
+    margin-top: 50px;
+    padding: 15px 20px 15px 20px;
+    background: red;
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    letter-spacing: 1px;
+    transition: 0.3s ease-in-out;
+}
+
+.conteudo .texto a:hover {
+    transform: translateY(-10px)
+}
+
+.icone {
+    position: absolute;
+    bottom: 20px;
+    left: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icone li {
+    list-style: none;
+}
+
+.icone li a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: rgb(10, 10, 10);
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease-in-out;
+}
+
+.icone li a:hover {
+    background: rgb(36, 36, 36);
+    transform: translateY(-10px);
+}
+
+.icone li a img {
+    transform: scale(0.25);
+    filter: invert(1);
+}
+
+.bximagem {
+    position: absolute;
+    right: -20px;
+    bottom: -40px;
+}
+
+.bximagem img {
+    width: 500px;
+}
