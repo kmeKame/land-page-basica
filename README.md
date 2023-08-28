@@ -1,4 +1,5 @@
-Projeto construído como estudo de HTML e CSS.
+# landing Page Básica
+Projeto construído como estudo/aperfeiçoamento de habildiades baseadas em HTML e CSS.
 
 ## Tecnologias
 - HTML
